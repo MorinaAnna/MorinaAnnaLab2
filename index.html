@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BOOGRT Clothing Store</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Boomboom&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html"><img src="logo.png" alt="BOOGRT Logo" height="80"></a>
+          </li>
+          <li><span class="site-name">BOOGRT</span></li> 
+          <li><a href="catalog.html" class="nav_cl">Catalog</a></li>
+          <li><a href="reviews.html" class="nav_cl">Reviews</a></li>
+          <li><a href="about.html" class="nav_cl">About Us</a></li>
+          <li>
+            <input type="text" id="searchInput" placeholder="Search" required>
+            <button type="submit" id="searchButton">Search</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="main_cont">
+        <img src="одяг.jpg" alt="BOOGRT Clothing" class="main-img">
+        <div class="text-content">
+          <h2>BOOGRT loves the street</h2>
+          <p>Explore our latest collection of streetwear designed to make you stand out.</p>
+          <button id="catalogButton"><a href="catalog.html">Shop Now</a></button>
+        </div>
+      </div>
+
+      <div class="registration-form">
+        <h3>Register Here</h3>
+        <form class="styled-form">
+          <label for="firstname">First Name:</label>
+          <input type='text' id="firstname" name='firstname' placeholder="First Name" required>
+
+          <label for="lastname">Last Name:</label>
+          <input type='text' id="lastname" name='lastname' placeholder="Last Name" required>
+
+          <label for="email">Email:</label>
+          <input type='email' id="email" name='email' placeholder="email@gmail.com" required>
+
+          <label for="password">Password:</label>
+          <input type='password' id="password" name='password' placeholder="Password" required>
+
+          <input type="submit" value="Register">
+        </form>
+      </div>
+
+      <!--  таблиця -->
+      <div class="table-section">
+        <h3>Product Sizes</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Size</th>
+              <th>Chest (cm)</th>
+              <th>Waist (cm)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Small</td>
+              <td>90-95</td>
+              <td>70-75</td>
+            </tr>
+            <tr>
+              <td>Medium</td>
+              <td>95-100</td>
+              <td>75-80</td>
+            </tr>
+            <tr>
+              <td>Large</td>
+              <td>100-105</td>
+              <td>80-85</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Багаторівневий список -->
+      <div class="nested-list">
+        <h3>Available Colors</h3>
+        <ul>
+          <li>Black</li>
+          <li>White
+            <ul>
+              <li>Off-White</li>
+              <li>Pearl White</li>
+            </ul>
+          </li>
+          <li>Red</li>
+          <li>Blue</li>
+        </ul>
+      </div>
+    </main>
+
+    <footer>
+      <ul>
+        <li>Instagram</li>
+        <li>Telegram channel</li>
+      </ul>
+    </footer>
+  </div>
+</body>
+</html>
+
+
+<!-- Підключення шрифтів з Google Fonts (External Fonts) -->
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Boomboom&display=swap" rel="stylesheet">
+</head>

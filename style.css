@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Універсальний селектор для скидання стилів */
+}
+
+html, body {
+  height: 100%; /* Селектор тегу, щоб займати всю висоту вікна */
+}
+
+body {
+  font-family: 'Boomboom', sans-serif; /* CSS: шрифти */
+  background-color: #fff; /* CSS: фон */
+}
+
+header {
+  background-color: #000; /* CSS: фон для заголовка */
+  padding: 20px; /* CSS: поля для заголовка */
+}
+
+header nav ul {
+  display: flex; /* Селектор тегу для флекс-контейнера */
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none; /* CSS: списки */
+}
+
+.nav_cl {
+  color: #fff; 
+  text-decoration: none; 
+  font-size: 20px; 
+  padding: 10px; 
+  border-radius: 10px; /* CSS: заокруглені кути */
+}
+
+.nav_cl:hover {
+  background-color: #444; /* Селектор псевдокласу для ефекту hover */
+}
+
+#searchInput {
+  font-size: 16px; 
+  padding: 10px; 
+  border-radius: 5px; 
+  border: none; /* Селектор ідентифікатора */
+}
+
+#searchButton {
+  padding: 10px; 
+  font-size: 16px; 
+  background-color: #FF0080; 
+  color: #fff; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; /* CSS: курсор */
+}
+
+#main_cont {
+  text-align: center; /* CSS: текст */
+  margin-top: 50px; 
+}
+
+.main-img {
+  width: 400px; 
+  height: auto; 
+  border-radius: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* CSS: тінь для зображення */
+}
+
+.text-content {
+  margin-top: 20px; 
+  font-family: 'Impact', sans-serif; /* CSS: шрифти */
+  color: #FF0080; 
+}
+
+.text-content h2 {
+  font-size: 36px; /* CSS: текст */
+}
+
+.text-content p {
+  font-size: 18px; 
+  margin: 10px 0; 
+}
+
+#catalogButton {
+  background-color: #00CCFF; 
+  color: #fff; 
+  padding: 15px 30px; 
+  font-size: 20px; 
+  border: none; 
+  border-radius: 10px; 
+  cursor: pointer; 
+  text-transform: uppercase; 
+  text-decoration: none; 
+}
+
+#catalogButton a {
+  color: inherit; 
+  text-decoration: none; 
+}
+
+#catalogButton:hover {
+  background-color: #0099CC; 
+}
+
+.registration-form {
+  background-color: #f9f9f9; /* CSS: фон */
+  padding: 20px;
+  border-radius: 15px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* CSS: тінь */
+  max-width: 400px; 
+  margin: 20px auto; 
+}
+
+.registration-form h3 {
+  text-align: center; /* CSS: текст */
+  margin-bottom: 20px; 
+}
+
+.styled-form {
+  display: flex; 
+  flex-direction: column; 
+}
+
+.styled-form label {
+  margin-bottom: 5px; 
+}
+
+.styled-form input[type="text"],
+.styled-form input[type="email"],
+.styled-form input[type="password"] {
+  font-size: 16px; 
+  padding: 10px; 
+  margin-bottom: 15px; 
+  border: 1px solid #ccc; 
+  border-radius: 10px; /* CSS: заокруглені кути */
+}
+
+.styled-form input[type="submit"] {
+  background: #FF0080; 
+  color: #fff; 
+  border: none; 
+  border-radius: 10px; 
+  padding: 10px; 
+  cursor: pointer; 
+  font-size: 16px; 
+  transition: background-color 0.3s; /* CSS: переходи */
+}
+
+.styled-form input[type="submit"]:hover {
+  background-color: #d60068; /* Селектор псевдокласу */
+}
+
+/* Стилі для таблиці */
+table {
+  width: 100%; 
+  border-collapse: collapse; /* CSS: контур таблиці */
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px; 
+  border: 1px solid #ddd; /* CSS: контур клітин */
+  text-align: center; /* CSS: текст */
+}
+
+th {
+  background-color: #FF0080; 
+  color: white; 
+}
+
+td {
+  background-color: #f9f9f9; 
+}
+
+/* Стилі для багаторівневого списку */
+ul {
+  list-style-type: none; /* CSS: списки */
+  padding-left: 0;
+}
+
+ul li {
+  font-size: 18px; 
+  margin-bottom: 5px; 
+}
+
+ul li ul {
+  list-style-type: disc; 
+  margin-left: 20px; 
+  font-size: 16px;
+}
+
+footer {
+  background-color: #000; /* CSS: фон */
+  color: #fff; 
+  padding: 20px; 
+  text-align: center; /* CSS: текст */
+}
+
+footer ul {
+  display: flex; /* Селектор тегу для виведення елементів списку у футері */
+  justify-content: center; 
+  list-style-type: none; /* CSS: списки */
+}
+
+footer ul li {
+  margin: 0 20px; 
+  font-size: 16px; /* CSS: текст */
+}
+
+.site-name {
+  font-family: 'Rubik Mono One', sans-serif; /* CSS: шрифти */
+  color: #fff; 
+  font-size: 30px; 
+  margin-left: 10px; 
+}
